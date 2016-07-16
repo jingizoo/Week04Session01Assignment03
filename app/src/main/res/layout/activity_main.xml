@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.jalaj.firstapp.autosearchproject.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/strTxtVwLblName"
+        android:id="@+id/txtVwlblName"
+        android:background="@color/material_blue_grey_800"
+        android:textColor="@color/bright_foreground_inverse_material_light"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/strTxtVwLblName"
+        android:id="@+id/txtVwDataName"
+        android:layout_toRightOf="@+id/txtVwlblName"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/strTxtVwLblAge"
+        android:layout_below="@+id/txtVwlblName"
+        android:id="@+id/txtVwlblAge"
+        android:background="@color/material_blue_grey_800"
+        android:textColor="@color/bright_foreground_inverse_material_light"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/strTxtVwLblName"
+        android:id="@+id/txtVwDataAge"
+        android:layout_toRightOf="@+id/txtVwlblAge"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/strTxtVwLblPhoto"
+        android:layout_below="@+id/txtVwlblAge"
+        android:background="@color/material_blue_grey_800"
+        android:textColor="@color/bright_foreground_inverse_material_light"
+        android:textAlignment="center"
+        android:id="@+id/txtVwlblPhoto"/>
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/imgEmployeeImage"/>
+</RelativeLayout>

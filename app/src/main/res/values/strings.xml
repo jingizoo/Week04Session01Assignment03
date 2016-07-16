@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AutoSearchProject</string>
+    <string name="strTxtVwLblName">Name</string>
+    <string name="strTxtVwLblAge">Age</string>
+    <string name="strTxtVwLblPhoto">Photo</string>
+
+</resources>
